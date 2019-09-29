@@ -1,0 +1,7 @@
+# action.yml
+name: 'mix dialyzer'
+author: 'Oleksii Filonenko <brightone@protonmail.com>'
+description: "Runs 'mix dialyzer' with annotations"
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
